@@ -4,6 +4,8 @@
 
 - Reframe the public README as a module guide for developers studying media
   capture, archive deduplication, Cookie and session handling, and job scheduling.
+- Document the independent archive runtimes and link to the separate project
+  for Telegram-triggered downloads.
 
 ## 0.1.0 — 2026-11-18
 
