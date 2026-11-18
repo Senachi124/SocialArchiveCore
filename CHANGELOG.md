@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Reframe the public README as a module guide for developers studying media
+  capture, archive deduplication, Cookie and session handling, and job scheduling.
+
 ## 0.1.0 — 2026-11-18
 
 - Extract Instagram automatic archiving and media acquisition into an independent
