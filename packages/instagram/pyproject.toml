@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social-archive-instagram-core"
+version = "0.1.0"
+description = "Headless Instagram fetch and automatic archival core"
+requires-python = ">=3.11"
+dependencies = ["gallery-dl==1.32.17", "instaloader==4.15.3", "requests>=2.32.3,<3"]
+
+[project.scripts]
+instagram-archive = "instagram_archive_core.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

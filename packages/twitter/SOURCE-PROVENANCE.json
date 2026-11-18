@@ -1,0 +1,132 @@
+{
+  "base": "XLoader capture runtime code; adapted for standalone local archival",
+  "files": [
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/archive.py",
+      "source_sha256": "35282c28cd8149a0d922ec2f131d4d2b34b0f0513e964f077db8ddbcf747bf34",
+      "destination": "src/xloader/archive.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/capture.py",
+      "source_sha256": "261f0a86dcc5c2dcbdf7e57e72d606b9eaa92bac78f1ca672b79226e54acabbe",
+      "destination": "src/xloader/capture.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/common.py",
+      "source_sha256": "00d5baeb79f6d0d78c05bd82ef5ced75b3c4d53aa84e85d634b981cf4ee0178f",
+      "destination": "src/xloader/common.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/cookies.py",
+      "source_sha256": "7c819bedccf637a8153ec3f9ec2ee92ba1a36f2e3cbd8d6d436f730e97334fef",
+      "destination": "src/xloader/cookies.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/db.py",
+      "source_sha256": "51f7d1547a42f9ec33a4c0760d90dbd65a0dadc9e78ab3881d34dc969c8efed5",
+      "destination": "src/xloader/db.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/diagnostics.py",
+      "source_sha256": "b08fb4a6b68acfd33bb40b98e3b908390c0384798c5d2ad7b0ec9472fea8ba9c",
+      "destination": "src/xloader/diagnostics.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/events.py",
+      "source_sha256": "f553c9b45c4d523c72c833fdcdafaead25d65f60f2270bf013e81e672db0fbec",
+      "destination": "src/xloader/events.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/jobs.py",
+      "source_sha256": "628732abaf1129658acb28133271eb90ee6f742bdee1d210f3037d302d4759d4",
+      "destination": "src/xloader/jobs.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/paths.py",
+      "source_sha256": "ea593ab89ca17ba2645502f57f21d69d966355c2e40b0c6e3954daa7c96d9db5",
+      "destination": "src/xloader/paths.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/profiles.py",
+      "source_sha256": "f11beb21008cb95db67dec398138f5b801add355f101bbbfed5f2b8e332adb28",
+      "destination": "src/xloader/profiles.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/search.py",
+      "source_sha256": "c9f41f005185d779192a7f51c6444e85250f7dbb2be9e51fc79b1a9383b55c3d",
+      "destination": "src/xloader/search.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/worker.py",
+      "source_sha256": "112755fa7d612854aca9714e0bc247a3654c7a72b5cdc4992dffa89d53c78f81",
+      "destination": "src/xloader/worker.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/xsource.py",
+      "source_sha256": "bce73396a948bd21062b95ae0f9d2a218af3db807132d31ba0f01fcc037ae6f9",
+      "destination": "src/xloader/xsource.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/alt_metadata.py",
+      "source_sha256": "b16ea31eb07fcd76a81e8ad804c07f11e530eed4e1761ff2ce9bcd719fc95976",
+      "destination": "src/xloader/alt_metadata.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/alt_backfill.py",
+      "source_sha256": "452844157b5533298103b65e4ae0145d12118a95150c0454b42273f713769e84",
+      "destination": "src/xloader/alt_backfill.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/schema.sql",
+      "source_sha256": "66b7f05f2ad0016c04e632d84a9bce4982baef10dd9604bd138ee0f9f7297f0e",
+      "destination": "src/xloader/schema.sql"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "src/xloader/process.py",
+      "source_sha256": "64661e6aef8d0b4af4df04ead3ae98ba5ced36fb90bba307f2ed8c62dca03a15",
+      "destination": "src/xloader/process.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "tests/test_core.py",
+      "source_sha256": "f154368d8b6abf026415f6c209103355b0f39772f69361ee346ee118a5373c7f",
+      "destination": "tests/test_core.py"
+    },
+    {
+      "source_repository": "Senachi124/XLoader",
+      "source_path": "tests/test_twscrape.py",
+      "source_sha256": "13c3f60dfa86943a108572548f1daabf1b30e5b2855e1ba4749553ce09342105",
+      "destination": "tests/test_twscrape.py"
+    }
+  ],
+  "new_files": [
+    "src/xloader/cli.py",
+    "src/xloader/storage.py",
+    "tests/test_portability.py",
+    "tests/test_postgres.py",
+    "tests/run_postgres.py"
+  ],
+  "changes": [
+    "Extracted local capture only; removed web/authentication, NAS transfer/cleanup/import, deployment and host path defaults",
+    "Preserved scheduled-first slicing, native cooldowns, local manifest verification and safe diagnostics",
+    "Added headless CLI, explicit mounted-storage checks, protected runtime sessions and standalone packaging",
+    "Retained xloader namespace for capture subprocess compatibility; use a dedicated virtual environment"
+  ]
+}

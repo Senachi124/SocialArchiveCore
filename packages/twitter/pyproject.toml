@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social-archive-twitter"
+version = "0.1.0"
+description = "Headless Twitter/X capture and scheduled local archival extracted from XLoader"
+requires-python = ">=3.11"
+dependencies = [
+  "psycopg[binary]==3.3.6",
+  "twscrape==0.20.1",
+  "Pillow==12.3.0",
+  "httpx==0.28.1",
+  "tzdata==2026.2",
+]
+
+[project.scripts]
+social-archive-twitter = "xloader.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+xloader = ["schema.sql"]

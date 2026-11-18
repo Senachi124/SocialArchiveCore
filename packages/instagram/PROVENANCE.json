@@ -1,0 +1,121 @@
+{
+  "source_repository": "Senachi124/SocialMedia_autoArchive",
+  "basis": "deployed backend code, read-only extraction; no deployment/data copied",
+  "files": [
+    {
+      "upstream_path": "backend/archive_identity.py",
+      "destination": "src/instagram_archive_core/archive_identity.py",
+      "sha256": "1d067cc276d52f6f42407b1b5ff20d1a2c48e6ec3df1e5cf35f1ea9442088ed0"
+    },
+    {
+      "upstream_path": "backend/auto_recovery.py",
+      "destination": "src/instagram_archive_core/auto_recovery.py",
+      "sha256": "4088a8ddecd02cc6e0b9bcc9f9911d01e4b2b780ea97fa89e6ba712f0245032a"
+    },
+    {
+      "upstream_path": "backend/download_failures.py",
+      "destination": "src/instagram_archive_core/download_failures.py",
+      "sha256": "5de4fa69e22e79bb7d7f0e2963d61b169d75a6182411198cdd68b35c32f9086a"
+    },
+    {
+      "upstream_path": "backend/gallery_diagnostics.py",
+      "destination": "src/instagram_archive_core/gallery_diagnostics.py",
+      "sha256": "a36b1a1e666043169711ff2fb4775b1d10d247b85fed19eb78a0028732594b11"
+    },
+    {
+      "upstream_path": "backend/gallery_pacing.py",
+      "destination": "src/instagram_archive_core/gallery_pacing.py",
+      "sha256": "1441efbf76e9697f885975986454c948083b012434e9d97ad56cc8c3aaa6bd7e"
+    },
+    {
+      "upstream_path": "backend/instagram_avatar.py",
+      "destination": "src/instagram_archive_core/instagram_avatar.py",
+      "sha256": "20b023325e239e7b42a9568dae7c26ed369b03b3ac7ef004148414a569b00438"
+    },
+    {
+      "upstream_path": "backend/instagram_graphql.py",
+      "destination": "src/instagram_archive_core/instagram_graphql.py",
+      "sha256": "cf0ea13059ab523a911a622e076218b5dc9e0391a31b1e9d0e69af12caecfda3"
+    },
+    {
+      "upstream_path": "backend/instagram_policy.py",
+      "destination": "src/instagram_archive_core/instagram_policy.py",
+      "sha256": "8eb5f6525ff2be44c6e1126ad51d35eadffdf14dba8c11381ca42802477a581b"
+    },
+    {
+      "upstream_path": "backend/instagram_web_client.py",
+      "destination": "src/instagram_archive_core/instagram_web_client.py",
+      "sha256": "e29b21bee549d521afc4922da850b7b2c14d35ca02a8f7bf9c5d7d88b6777065"
+    },
+    {
+      "upstream_path": "backend/instagram_web_gallery.py",
+      "destination": "src/instagram_archive_core/instagram_web_gallery.py",
+      "sha256": "a761a946831386d278f5b5340a0835b5af70c003833f57ba094f9ed484e63792"
+    },
+    {
+      "upstream_path": "backend/instagram_web_reels.py",
+      "destination": "src/instagram_archive_core/instagram_web_reels.py",
+      "sha256": "5eca69ebd4c38a707015fc5eec719acfbbaa646cc6bac37d045b198994625626"
+    },
+    {
+      "upstream_path": "backend/instagram_web_timeline.py",
+      "destination": "src/instagram_archive_core/instagram_web_timeline.py",
+      "sha256": "8a275d6bce418fa4fc8565e1723dd77969b957a97cd97a131ed325f4ef9a46e7"
+    },
+    {
+      "upstream_path": "backend/job_activity.py",
+      "destination": "src/instagram_archive_core/job_activity.py",
+      "sha256": "f21316b050c7ccd0f98d7d2f6ccdddf40a6f1c21d0c47fe78de4a7224d7c31e7"
+    },
+    {
+      "upstream_path": "backend/job_control.py",
+      "destination": "src/instagram_archive_core/job_control.py",
+      "sha256": "a699812fbaee62897ade390bc621c04f725467cd2e079ffa6f655479da142175"
+    },
+    {
+      "upstream_path": "backend/public_time.py",
+      "destination": "src/instagram_archive_core/public_time.py",
+      "sha256": "8ed09efee29fa3a1a6afb51ee21b1d375703b768dde71d324c575e909d41ed6a"
+    },
+    {
+      "upstream_path": "backend/server.py",
+      "destination": "src/instagram_archive_core/core.py",
+      "sha256": "f13b5f94c0c78bbe1c8852a23375c795e776436e5363f36ca8634618d651ea0c"
+    },
+    {
+      "upstream_path": "server/backend/gallery_worker.py",
+      "destination": "src/instagram_archive_core/gallery_worker.py",
+      "sha256": "acb2b00daa8a984691ffaca4907a00d44d4cc013fec18415d92f32a0c88ce3d3"
+    },
+    {
+      "upstream_path": "backend/test_gallery_diagnostics.py",
+      "destination": "tests/test_gallery_diagnostics.py",
+      "sha256": "4d84a1748ca173a91a9daab6200beeabe30d46fe3290331c89e19ae892be9826",
+      "adaptation": "package imports and headless worker import"
+    },
+    {
+      "upstream_path": "backend/test_instagram_graphql.py",
+      "destination": "tests/test_instagram_graphql.py",
+      "sha256": "4d6374515056637c5e29accfdbce6896d6636c244d875f550ae8efa5a19e555b",
+      "adaptation": "package imports and headless worker import"
+    },
+    {
+      "upstream_path": "backend/test_instagram_web_client.py",
+      "destination": "tests/test_instagram_web_client.py",
+      "sha256": "a38019201bc0cad609e2d559d91172b22ffb37f4ba012ba3c4ffc55196d58d49",
+      "adaptation": "package imports and headless worker import"
+    },
+    {
+      "upstream_path": "backend/test_instagram_web_reels.py",
+      "destination": "tests/test_instagram_web_reels.py",
+      "sha256": "ffbc35b4cd9dfa482a67536e422d1dad0bbd8df8f5b1881baf727c7cc58d5f3b",
+      "adaptation": "package imports and headless worker import"
+    },
+    {
+      "upstream_path": "backend/test_auto_success.py",
+      "destination": "tests/test_auto_success.py",
+      "sha256": "0b4c5889880a47d723dabe51a8aedc9b4bfb4ca05e99e38f714c99a513b7353e",
+      "adaptation": "package imports and headless worker import"
+    }
+  ]
+}
