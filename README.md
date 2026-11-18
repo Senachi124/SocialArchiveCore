@@ -2,6 +2,12 @@
 
 SocialArchiveCore 是公開的 Python 實作參考，收錄 Instagram 與 Twitter／X 的媒體抓取、自動封存及工作排程。你可以按需求閱讀單一模組，例如貼文分頁、下載去重、封存索引或 Cookie／Session 管理。想看完整流程，也可以獨立安裝任一平台的套件，透過 CLI 執行。
 
+## 專案範圍
+
+兩個套件各自接收封存目標及排程設定，讓背景程序抓取內容，把媒體及封存紀錄保存到操作者指定的儲存位置。Instagram 使用 SQLite。X 使用 SQLite 保存帳號池，並以 PostgreSQL 保存工作和封存索引。
+
+需要傳連結到 Telegram 並在對話中收取媒體，可參考 [TelegramSocialDownloader](https://github.com/Senachi124/TelegramSocialDownloader)。兩個專案各自安裝、維護與發布，使用各自的設定、工作佇列和儲存目錄。
+
 ## 按功能找程式碼
 
 | 想參考的功能 | Instagram | Twitter／X |
